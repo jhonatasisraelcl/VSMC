@@ -42,7 +42,9 @@
     "versionFirst": "4.7.6",
     "uniqCompNum": 158,
     "versionPublish": "4.8.4",
-    "screenshot": "screenshot.png"
+    "screenshot": "screenshot.png",
+    "publishType": "local",
+    "publishPath": "file:///C:/Users/Jhonatas%20Costa/Documents/VSMC"
   },
   "pages": {
     "index.html": {
