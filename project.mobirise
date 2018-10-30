@@ -40,7 +40,7 @@
     "path": "@PROJECT_PATH@",
     "siteFonts": [],
     "versionFirst": "4.7.6",
-    "uniqCompNum": 158,
+    "uniqCompNum": 161,
     "versionPublish": "4.8.4",
     "screenshot": "screenshot.png"
   },
@@ -2817,13 +2817,67 @@
             }
           },
           "_name": "content2",
-          "_customHTML": "<section class=\"mbr-section article content1\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-12 col-md-8 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-multiline mbr-article>\n                <blockquote><p><b>Início das submissões de trabalhos: 03/09/2018\n</b></p><p><b>Fim das submissões de trabalhos: 05/10/2018 \n</b></p><p><b>Divulgação do resultado: 15/10/2018</b></p><p><b>Período de Inscrições dos participantes da V semana de Matemática: 15/10 a 23/10   &nbsp;\n</b></p></blockquote><blockquote><p><b>&nbsp;Template de Comunicação Oral disponivel para download!</b></p><p><a href=\"page7.html#counters2-38\" style=\"font-size: 1.09rem; background-color: rgb(255, 255, 255);\">clique aqui!</a></p></blockquote><blockquote><p>Prgramação divulgada!\n</p><p>No dia 27/09/2018 foi publicada a programação completa contendo todos os minicursos, oficinas e palestras que irão ocorrer durante a V SEMANA DE MATEMÁTICA DO CERES!\n</p><p><a href=\"programacao_completa.html\">Programação completa!</a></p><p>\n</p></blockquote><blockquote><p>\nAlteração no prazo de submissão!</p><p>O prazo de submissão de projetos para a VSMC foi alterado!</p><p>Antes era até dia <b>28/09/2018</b>&nbsp;mas agora vai ser até dia <b>05/10/2018, </b>então quem ainda não submeteu o seu trabalho para o evento corra que ainda tem tempo!<br></p></blockquote>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"mbr-section article content1\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-12 col-md-8 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-multiline mbr-article>\n                <blockquote><p><b>Início das submissões de trabalhos: 03/09/2018\n</b></p><p><b>Fim das submissões de trabalhos: 05/10/2018 \n</b></p><p><b>Divulgação do resultado: 15/10/2018</b></p><p><b>Período de Inscrições dos participantes da V semana de Matemática: 15/10 a 23/10   &nbsp;\n</b></p></blockquote><blockquote><p><b>&nbsp;Template de Comunicação Oral disponivel para download!</b></p><p><a href=\"page7.html#counters2-38\" style=\"font-size: 1.09rem; background-color: rgb(255, 255, 255);\">clique aqui!</a></p></blockquote><blockquote><p>Prgramação divulgada!\n</p><p>No dia 27/09/2018 foi publicada a programação completa contendo todos os minicursos, oficinas e palestras que irão ocorrer durante a V SEMANA DE MATEMÁTICA DO CERES!\n</p><p><a href=\"programacao_completa.html\">Programação completa!</a></p><p>\n</p></blockquote><blockquote><p>\nAlteração no prazo de submissão!</p><p>O prazo de submissão de projetos para a VSMC foi alterado!</p><p>Antes era até dia <b>28/09/2018</b>&nbsp;mas agora vai ser até dia <b>05/10/2018, </b>então quem ainda não submeteu o seu trabalho para o evento corra que ainda tem tempo!</p></blockquote>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "r1IKbbUxat",
           "_anchor": "content2-27",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
           "_params": {}
+        },
+        {
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-text, blockquote": {
+              "color": "#767676"
+            }
+          },
+          "_name": "content2",
+          "_customHTML": "<section class=\"mbr-section article content1\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-12 col-md-8 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-multiline mbr-article>\n                <blockquote><p>Trabalhos aprovados para a V Semana de Matemática do CERES/Caicó</p><p><a href=\"assets/files/Comunica%C3%A7%C3%B5es%20orais%20-%20trabalhos%20aprovados.pdf\">Clique aqui!</a></p></blockquote>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "r6W26dnE9E",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "content2-4e"
+        },
+        {
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-text, blockquote": {
+              "color": "#767676"
+            }
+          },
+          "_name": "content2",
+          "_customHTML": "<section class=\"mbr-section article content1\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-12 col-md-8 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-multiline mbr-article>\n                <blockquote><p><b>&nbsp;Manuais de inscrição: \n</b></p><p><b><br></b><b style=\"font-size: 1.09rem;\"><a href=\"assets/files/1%20-%20MANUAL%20DE%20INSCRI%C3%87%C3%83O%20(Com%20v%C3%ADnculo%20com%20a%20UFRN).pdf\">1 - MANUAL DE INSCRIÇÃO (Com vínculo com a UFRN)&nbsp;</a></b></p><p><b style=\"font-size: 1.09rem;\"><a href=\"assets/files/2%20-%20MANUAL%20DE%20INSCRI%C3%87%C3%83O%20(Sem%20v%C3%ADnculo%20com%20a%20UFRN).pdf\">2 - MANUAL DE INSCRIÇÃO (Sem vínculo com a UFRN)&nbsp;</a></b></p><p><b style=\"font-size: 1.09rem;\"><br></b><span style=\"font-size: 1.09rem; font-style: normal;\">Um para pessoas que tem vínculo com a UFRN e outro para pessoas de outras Instituições de Ensino, já que o pessoal de outras instituições tem alguns passos a mais a serem realizados.</span></p></blockquote>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "r6WpOpICa6",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "content2-4f"
+        },
+        {
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-text, blockquote": {
+              "color": "#767676"
+            }
+          },
+          "_name": "content2",
+          "_customHTML": "<section class=\"mbr-section article content1\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-12 col-md-8 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-multiline mbr-article>\n                <blockquote><p>&nbsp;Programação e o local de cada atividade!</p><p><a href=\"assets/files/Programa%C3%A7%C3%A3o%20e%20local%20da%20atividade.pdf\">Clique aqui!</a></p></blockquote>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "r6WpQsCzEc",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "content2-4g"
         },
         {
           "_styles": {
